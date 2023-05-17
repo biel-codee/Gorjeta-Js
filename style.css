@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #2f7cee;
+    --secundary-color: #e7d91b;
+    --tertiary-color: #dcdcdc;
+}
+
+body{
+    background-color: var(--primary-color) ;
+    font-size: 25px;
+    font-family: 'VT323', monospace;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+#container {
+    height: 580px;
+    width: 380px;
+    margin: 30px auto;
+    background: #f7f7f7;
+    box-shadow: 5px 5px 5px var(--tertiary-color);
+    border-radius: 20px;
+}
+
+.title {
+    background: var(--secundary-color);
+    font-family: 'VT323', monospace;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 36px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.tipsForm {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.formInput {
+    background: #ffffff;
+    width: 40px;
+    padding: 9px 9px 7px 7px;
+}
+
+.formInput:focus{
+    border: 3px solid var(--primary-color);
+    outline: none;
+}
+
+.formSelect {
+    width: 180px;
+    padding: 5px;
+    font-family: "Poppins";
+    font-size: 12px;
+}
+
+.formSubmit{
+    font-family:'VT323', monospace;;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--primary-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#totalTip{
+    font-family: "Poppins";
+    font-size: 18px;
+    text-align: center;
+}
